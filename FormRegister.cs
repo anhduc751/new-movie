@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TungMovie
+namespace Movie_management
 {
 	public partial class FrmRegister : Form
 	{
-		User us = new User();
+		User1 us = new User1();
 		public FrmRegister()
 		{
 			InitializeComponent();

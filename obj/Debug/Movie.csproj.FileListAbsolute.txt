@@ -26,3 +26,31 @@ E:\study\OOS\final 1.2\obj\Debug\Movie.csproj.GenerateResource.cache
 E:\study\OOS\final 1.2\obj\Debug\Movie.csproj.CoreCompileInputs.cache
 E:\study\OOS\final 1.2\obj\Debug\TungMovie.exe
 E:\study\OOS\final 1.2\obj\Debug\TungMovie.pdb
+C:\Users\ASUS\Desktop\GitHub\new-movie\bin\Debug\TungMovie.exe.config
+C:\Users\ASUS\Desktop\GitHub\new-movie\bin\Debug\TungMovie.exe
+C:\Users\ASUS\Desktop\GitHub\new-movie\bin\Debug\TungMovie.pdb
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\TungMovie.Properties.Resources.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\TungMovie.exe
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\TungMovie.pdb
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.AdminManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.BuyTicketManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.Chat.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.EditInfo.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.Film_management.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.FormMenuCustomer.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.ListSuccessedTicket.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.StatisticsManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.UserManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.FormLogin.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.FrmRegister.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.ListCharater.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.ListMV.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.ManagerForm.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.RoomManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.BuyTicket.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.ScheduleManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.SeatManagement.resources
+C:\Users\ASUS\Desktop\GitHub\new-movie\obj\Debug\Movie_management.TicketManagement.resources

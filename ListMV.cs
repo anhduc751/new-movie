@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace TungMovie
+namespace Movie_management
 {
 	public partial class ListMV : Form
 	{
@@ -33,9 +33,10 @@ namespace TungMovie
 			gridListMV.Columns[3].Width = 50;
 			gridListMV.Columns[4].Width = 100;
 			gridListMV.Columns[5].Width = 250;
-			((DataGridViewImageColumn)gridListMV.Columns["Thumbnail"]).DefaultCellStyle.NullValue = null;
-			((DataGridViewImageColumn)gridListMV.Columns["Thumbnail"]).ImageLayout = DataGridViewImageCellLayout.Stretch;
-			gridListMV.AllowUserToResizeColumns = false;
+            ((DataGridViewImageColumn)gridListMV.Columns["Thumbnail"]).DefaultCellStyle.NullValue = null;
+            ((DataGridViewImageColumn)gridListMV.Columns["Thumbnail"]).ImageLayout = DataGridViewImageCellLayout.Stretch;
+
+            gridListMV.AllowUserToResizeColumns = false;
 		}
 		private void ListMV_Load(object sender, EventArgs e)
 		{

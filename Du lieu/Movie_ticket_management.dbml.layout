@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 21.5" name="Movie_ticket_management">
+  <DataContextMoniker Name="/Movie_ticket_managementDataContext" />
+  <nestedChildShapes>
+    <classShape Id="10fb2d91-efb4-4497-a1ed-aa5f449b25bd" absoluteBounds="4, 19.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Character" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3304d56-0e4b-4aa9-a91e-894ed5e3bb94" absoluteBounds="4.0150000000000006, 20.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f8b0518-06a9-45a2-823f-c8308448193b" absoluteBounds="6.75, 13.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Filming" />
+      <nestedChildShapes>
+        <elementListCompartment Id="13242924-672b-42b4-bfdd-ca7b2251f9a2" absoluteBounds="6.765, 14.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="76aa6ed4-6352-4b0f-b5ef-7efa60a8e34c" absoluteBounds="4, 13.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Movie" />
+      <nestedChildShapes>
+        <elementListCompartment Id="faa195da-63a6-41b9-82f9-09d77c8b3659" absoluteBounds="4.0150000000000006, 13.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7e7bfde-ed85-47f2-a925-39ec17d77151" absoluteBounds="6, 3.625, 2, 2.155499674479167">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b0718272-016e-4402-877a-1278e9b3fdb1" absoluteBounds="6.0150000000000006, 4.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4332b063-19a4-4321-ab14-9db9c258086a" absoluteBounds="4, 11.25, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Room" />
+      <nestedChildShapes>
+        <elementListCompartment Id="498ed58d-8d91-4399-9d80-a2e8b7eab52f" absoluteBounds="4.0150000000000006, 11.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6b70ab8b-600c-413e-8052-5f6a5d07558b" absoluteBounds="3.25, 8.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Schedule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19801b67-9843-4149-a23f-066e962078d1" absoluteBounds="3.265, 8.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2138fe37-618f-40c2-8fd3-57e84d2d43a1" absoluteBounds="3.25, 16.25, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Seat" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20424712-c7a4-49c1-951d-0ba3b6cd09c5" absoluteBounds="3.265, 16.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a1938865-ab59-4b2a-ad5c-1c7aee281b6f" absoluteBounds="6.25, 6.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Statistic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d7afb078-c955-4b43-8772-156f08e8aa06" absoluteBounds="6.2650000000000006, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2feafc88-9877-4eda-a66d-23ddab66b014" absoluteBounds="6, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/Ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="154e8a8e-6dfb-4a85-926a-94c6471e2e5a" absoluteBounds="6.0150000000000006, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce68df0e-ccc7-4cc2-adf4-4191e8c27061" absoluteBounds="3.25, 3.375, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/Movie_ticket_managementDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d4dac9d-9e0e-49a7-a2a0-207da346f7bb" absoluteBounds="3.265, 3.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 20.4142976888021); (7.75 : 20.4142976888021); (7.75 : 14.9439925130208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Character/Character_Filming" />
+      <nodes>
+        <classShapeMoniker Id="10fb2d91-efb4-4497-a1ed-aa5f449b25bd" />
+        <classShapeMoniker Id="6f8b0518-06a9-45a2-823f-c8308448193b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6 : 14.3469962565104); (6.41666666666667 : 14.3469962565104 : JumpStart); (6.58333333333333 : 14.3469962565104 : JumpEnd); (6.75 : 14.3469962565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Movie/Movie_Filming" />
+      <nodes>
+        <classShapeMoniker Id="76aa6ed4-6352-4b0f-b5ef-7efa60a8e34c" />
+        <classShapeMoniker Id="6f8b0518-06a9-45a2-823f-c8308448193b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 14.4527498372396); (3.6249995 : 14.4527498372396); (3.6249995 : 10.2708968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Movie/Movie_Schedule" />
+      <nodes>
+        <classShapeMoniker Id="76aa6ed4-6352-4b0f-b5ef-7efa60a8e34c" />
+        <classShapeMoniker Id="6b70ab8b-600c-413e-8052-5f6a5d07558b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.625 : 11.25); (4.625 : 10.2708968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Room/Room_Schedule" />
+      <nodes>
+        <classShapeMoniker Id="4332b063-19a4-4321-ab14-9db9c258086a" />
+        <classShapeMoniker Id="6b70ab8b-600c-413e-8052-5f6a5d07558b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 11.9431469726562); (3.43749975 : 11.9431469726562); (3.43749975 : 16.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Room/Room_Seat" />
+      <nodes>
+        <classShapeMoniker Id="4332b063-19a4-4321-ab14-9db9c258086a" />
+        <classShapeMoniker Id="2138fe37-618f-40c2-8fd3-57e84d2d43a1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 8.50136122831531); (5.625 : 8.12636122831531); (5.625 : 1.67390055338542); (6 : 1.67390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Schedule/Schedule_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="6b70ab8b-600c-413e-8052-5f6a5d07558b" />
+        <classShapeMoniker Id="2feafc88-9877-4eda-a66d-23ddab66b014" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 17.1354484049479); (6.5 : 17.1354484049479); (6.5 : 8.3862939453125); (5.75 : 8.3862939453125); (5.75 : 3.22280110677083); (7 : 3.22280110677083); (7 : 2.84780110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Seat/Seat_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="2138fe37-618f-40c2-8fd3-57e84d2d43a1" />
+        <classShapeMoniker Id="2feafc88-9877-4eda-a66d-23ddab66b014" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 4.70274983723958); (6 : 4.70274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/User/User_Role" />
+      <nodes>
+        <classShapeMoniker Id="ce68df0e-ccc7-4cc2-adf4-4191e8c27061" />
+        <classShapeMoniker Id="d7e7bfde-ed85-47f2-a925-39ec17d77151" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 4.10137491861979); (5.66666666666667 : 4.10137491861979 : JumpStart); (5.83333333333333 : 4.10137491861979 : JumpEnd); (6 : 4.10137491861979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/User/User_Role1" />
+      <nodes>
+        <classShapeMoniker Id="ce68df0e-ccc7-4cc2-adf4-4191e8c27061" />
+        <classShapeMoniker Id="d7e7bfde-ed85-47f2-a925-39ec17d77151" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.25 : 3.375); (4.25 : 2.29210333007812); (5.54166666666667 : 2.29210333007812 : JumpStart); (5.70833333333333 : 2.29210333007812 : JumpEnd); (6 : 2.29210333007812)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/User/User_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="ce68df0e-ccc7-4cc2-adf4-4191e8c27061" />
+        <classShapeMoniker Id="2feafc88-9877-4eda-a66d-23ddab66b014" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6 : 5.30412475585937); (5.25 : 5.30412475585937)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Movie_ticket_managementDataContext/Role/Role_User" />
+      <nodes>
+        <classShapeMoniker Id="d7e7bfde-ed85-47f2-a925-39ec17d77151" />
+        <classShapeMoniker Id="ce68df0e-ccc7-4cc2-adf4-4191e8c27061" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

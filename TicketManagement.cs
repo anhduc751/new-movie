@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TungMovie
+namespace Movie_management
 {
     public partial class TicketManagement : Form
     {
-        Ticket ti = new Ticket();
+        Ticket1 ti = new Ticket1();
 
         public TicketManagement()
         {

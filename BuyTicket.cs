@@ -8,17 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TungMovie
+namespace Movie_management
 {
     public partial class BuyTicket : Form
     {
-        Schedule sche = new Schedule();
+        Schedule1 sche = new Schedule1();
         Seat se = new Seat();
         DateTime bookingdatatime;
         string username;
         string moviename;
         int movie_id;
-        Ticket ti = new Ticket();
+        Ticket1 ti = new Ticket1();
 
 
 

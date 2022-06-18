@@ -1,5 +1,5 @@
 ﻿
-namespace TungMovie
+namespace Movie_management
 {
     partial class ScheduleManagement
     {
@@ -55,7 +55,7 @@ namespace TungMovie
             this.dateStartTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold);
             this.dateStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateStartTime.Location = new System.Drawing.Point(211, 153);
-            this.dateStartTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateStartTime.Margin = new System.Windows.Forms.Padding(4);
             this.dateStartTime.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
             this.dateStartTime.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
             this.dateStartTime.Name = "dateStartTime";
@@ -80,11 +80,8 @@ namespace TungMovie
             this.boxScheduleId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold);
             this.boxScheduleId.FormattingEnabled = true;
             this.boxScheduleId.ItemHeight = 20;
-            this.boxScheduleId.Items.AddRange(new object[] {
-            "find by id",
-            "find by name"});
             this.boxScheduleId.Location = new System.Drawing.Point(211, 100);
-            this.boxScheduleId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.boxScheduleId.Margin = new System.Windows.Forms.Padding(4);
             this.boxScheduleId.Name = "boxScheduleId";
             this.boxScheduleId.Size = new System.Drawing.Size(92, 28);
             this.boxScheduleId.TabIndex = 106;
@@ -121,7 +118,7 @@ namespace TungMovie
             this.gridTicketManagement.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridTicketManagement.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridTicketManagement.Location = new System.Drawing.Point(535, 28);
-            this.gridTicketManagement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gridTicketManagement.Margin = new System.Windows.Forms.Padding(4);
             this.gridTicketManagement.Name = "gridTicketManagement";
             this.gridTicketManagement.ReadOnly = true;
             this.gridTicketManagement.RowHeadersVisible = false;
@@ -135,7 +132,7 @@ namespace TungMovie
             this.dateEndTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold);
             this.dateEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateEndTime.Location = new System.Drawing.Point(211, 207);
-            this.dateEndTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateEndTime.Margin = new System.Windows.Forms.Padding(4);
             this.dateEndTime.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
             this.dateEndTime.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
             this.dateEndTime.Name = "dateEndTime";
@@ -159,7 +156,7 @@ namespace TungMovie
             this.txtIdRoom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIdRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold);
             this.txtIdRoom.Location = new System.Drawing.Point(211, 303);
-            this.txtIdRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIdRoom.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdRoom.Name = "txtIdRoom";
             this.txtIdRoom.Size = new System.Drawing.Size(93, 19);
             this.txtIdRoom.TabIndex = 115;
@@ -182,7 +179,7 @@ namespace TungMovie
             this.txtIdMovie.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIdMovie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold);
             this.txtIdMovie.Location = new System.Drawing.Point(211, 258);
-            this.txtIdMovie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIdMovie.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdMovie.Name = "txtIdMovie";
             this.txtIdMovie.Size = new System.Drawing.Size(93, 19);
             this.txtIdMovie.TabIndex = 113;
@@ -206,7 +203,7 @@ namespace TungMovie
             this.btnDeleteSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteSchedule.ForeColor = System.Drawing.Color.White;
             this.btnDeleteSchedule.Location = new System.Drawing.Point(189, 367);
-            this.btnDeleteSchedule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeleteSchedule.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteSchedule.Name = "btnDeleteSchedule";
             this.btnDeleteSchedule.Size = new System.Drawing.Size(160, 49);
             this.btnDeleteSchedule.TabIndex = 118;
@@ -222,7 +219,7 @@ namespace TungMovie
             this.btnUpdateSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdateSchedule.ForeColor = System.Drawing.Color.White;
             this.btnUpdateSchedule.Location = new System.Drawing.Point(357, 367);
-            this.btnUpdateSchedule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdateSchedule.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdateSchedule.Name = "btnUpdateSchedule";
             this.btnUpdateSchedule.Size = new System.Drawing.Size(160, 49);
             this.btnUpdateSchedule.TabIndex = 117;
@@ -238,7 +235,7 @@ namespace TungMovie
             this.btnAddSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddSchedule.ForeColor = System.Drawing.Color.White;
             this.btnAddSchedule.Location = new System.Drawing.Point(21, 367);
-            this.btnAddSchedule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddSchedule.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddSchedule.Name = "btnAddSchedule";
             this.btnAddSchedule.Size = new System.Drawing.Size(160, 49);
             this.btnAddSchedule.TabIndex = 116;
@@ -254,7 +251,7 @@ namespace TungMovie
             this.btnPrintSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrintSchedule.ForeColor = System.Drawing.Color.White;
             this.btnPrintSchedule.Location = new System.Drawing.Point(281, 434);
-            this.btnPrintSchedule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrintSchedule.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrintSchedule.Name = "btnPrintSchedule";
             this.btnPrintSchedule.Size = new System.Drawing.Size(213, 49);
             this.btnPrintSchedule.TabIndex = 120;
@@ -269,7 +266,7 @@ namespace TungMovie
             this.btnViewSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnViewSchedule.ForeColor = System.Drawing.Color.White;
             this.btnViewSchedule.Location = new System.Drawing.Point(45, 434);
-            this.btnViewSchedule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnViewSchedule.Margin = new System.Windows.Forms.Padding(4);
             this.btnViewSchedule.Name = "btnViewSchedule";
             this.btnViewSchedule.Size = new System.Drawing.Size(213, 49);
             this.btnViewSchedule.TabIndex = 119;
@@ -300,7 +297,7 @@ namespace TungMovie
             this.Controls.Add(this.labelIdFilm);
             this.Controls.Add(this.labelSched);
             this.Controls.Add(this.gridTicketManagement);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ScheduleManagement";
             this.Text = "ScheduleManagement";
             this.Load += new System.EventHandler(this.ScheduleManagement_Load);

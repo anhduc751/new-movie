@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace TungMovie
+namespace Movie_management
 {
     class DB
     {

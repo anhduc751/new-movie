@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace TungMovie
+namespace Movie_management
 {
     public partial class RoomManagement : Form
     {
-        Room room = new Room();
+        Room1 room = new Room1();
         public RoomManagement()
         {
             InitializeComponent();
@@ -30,7 +30,7 @@ namespace TungMovie
             gridRoomManagement.CurrentCell.Selected = true;
             boxRoomID.Text = gridRoomManagement.Rows[e.RowIndex].Cells["roomid"].Value.ToString();
             txtName.Text = gridRoomManagement.Rows[e.RowIndex].Cells["name"].Value.ToString();
-            txtSeatsAmount.Text = gridRoomManagement.Rows[e.RowIndex].Cells["mun_of_seats"].Value.ToString();
+            txtSeatsAmount.Text = gridRoomManagement.Rows[e.RowIndex].Cells["num_of_seats"].Value.ToString();
         }
 
         private void btnViewRoomMgt_Click(object sender, EventArgs e)

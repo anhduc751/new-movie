@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TungMovie
+namespace Movie_management
 {
     public partial class ScheduleManagement : Form
     {
-        Schedule sc = new Schedule();
+        Schedule1 sc = new Schedule1();
         public ScheduleManagement()
         {
             InitializeComponent();
@@ -45,20 +45,17 @@ namespace TungMovie
 
         private void btnAddSchedule_Click(object sender, EventArgs e)
         {
-            int id = Int32.Parse(boxScheduleId.SelectedValue.ToString());
+            string a = boxScheduleId.Text;
+            int id = Int32.Parse(boxScheduleId.Text);
             DateTime start = dateStartTime.Value.Date;
             DateTime end = dateEndTime.Value.Date;
             int movieid = Int32.Parse(txtIdMovie.Text.ToString());
             int roomid = Int32.Parse(txtIdRoom.Text.ToString());
-            if (sc.addSchedule(id, start, end, movieid, roomid))
-            {
-                MessageBox.Show("Add Schedule Successful", "Schedule", MessageBoxButtons.OK);
-                refresh();
-            }
-            else
-            {
-                MessageBox.Show("Error", "Schedule", MessageBoxButtons.OK);
-            }
+            sc.addSchedule(id, start, end, movieid, roomid);
+            
+            MessageBox.Show("Add Schedule Successful", "Schedule", MessageBoxButtons.OK);
+            refresh();
+           
 
         }
 
@@ -94,19 +91,16 @@ namespace TungMovie
         {
             if (verif())
             {
+                
                 int id = Int32.Parse(boxScheduleId.SelectedValue.ToString());
                 DateTime start = dateStartTime.Value.Date;
                 DateTime end = dateEndTime.Value.Date;
                 int movieid = Int32.Parse(txtIdMovie.Text.ToString());
                 int roomid = Int32.Parse(txtIdRoom.Text.ToString());
-                if (sc.addSchedule(id, start, end, movieid, roomid))
-                {
+                sc.addSchedule(id, start, end, movieid, roomid);
+                
                     MessageBox.Show("Update Schedule Successful", "Schedule", MessageBoxButtons.OK);
-                }
-                else
-                {
-                    MessageBox.Show("Error", "Schedule", MessageBoxButtons.OK);
-                }
+                
             }
             else
             {
@@ -150,15 +144,12 @@ namespace TungMovie
         private void btnDeleteSchedule_Click(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(boxScheduleId.SelectedValue);
-            if (sc.deleteSchedule(id))
-            {
-                refresh();
-                MessageBox.Show("Delete Schedule Successful", "Schedule", MessageBoxButtons.OK);
-            }
-            else
-            {
-                MessageBox.Show("Error", "Schedule", MessageBoxButtons.OK);
-            }
+            sc.deleteSchedule(id);
+            
+            refresh();
+            MessageBox.Show("Delete Schedule Successful", "Schedule", MessageBoxButtons.OK);
+            
+            
             
         }
     }

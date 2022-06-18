@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using Microsoft.Office.Interop.Word;
 
-namespace TungMovie
+namespace Movie_management
 {
 	public partial class ListSuccessedTicket : Form
 	{
@@ -19,7 +19,7 @@ namespace TungMovie
 			InitializeComponent();
 		}
 
-		Ticket Tick = new Ticket();
+		Ticket1 Tick = new Ticket1();
 
 		public void LoadDataGrid()
 		{
